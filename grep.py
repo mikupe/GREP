@@ -22,7 +22,16 @@
     "print(sys.argv)\n",
     "# print(\"Yo, what's up!\")\n",
     "\n",
-    "\n"
+    "with open(\"grep.py\") as f:\n",
+    "    for line in file:\n",
+    "        if \"sys\" in line:\n",
+    "            print(line)\n",
+    "\n",
+    "with open(\"file\") as f:\n",
+    "    for line in file:\n",
+    "        if \"pattern\" in line:\n",
+    "            print(line, end=\"\")\n",
+    " "
    ]
   },
   {

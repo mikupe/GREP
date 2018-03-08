@@ -2,6 +2,47 @@
  "cells": [
   {
    "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['/opt/jupyter/.venv/lib/python3.5/site-packages/ipykernel_launcher.py', '-f', '/home/petrming/.local/share/jupyter/runtime/kernel-c3249ebf-8127-412e-86ea-53da89af3620.json']\n"
+     ]
+    }
+   ],
+   "source": [
+    "#!/opt/pyenv/---\n",
+    "#!/bin/env python3\n",
+    "\n",
+    "import sys\n",
+    "\n",
+    "print(sys.argv)\n",
+    "# print(\"Yo, what's up!\")\n",
+    "\n",
+    "with open(\"grep.py\") as f:\n",
+    "    for line in file:\n",
+    "        if \"sys\" in line:\n",
+    "            print(line)\n",
+    "\n",
+    "with open(\"file\") as f:\n",
+    "    for line in file:\n",
+    "        if \"pattern\" in line:\n",
+    "            print(line, end=\"\")\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
