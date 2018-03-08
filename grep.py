@@ -2,14 +2,14 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Yo, what's up!\n"
+      "['/opt/jupyter/.venv/lib/python3.5/site-packages/ipykernel_launcher.py', '-f', '/home/petrming/.local/share/jupyter/runtime/kernel-c3249ebf-8127-412e-86ea-53da89af3620.json']\n"
      ]
     }
    ],
@@ -17,7 +17,12 @@
     "#!/opt/pyenv/---\n",
     "#!/bin/env python3\n",
     "\n",
-    "print(\"Yo, what's up!\")"
+    "import sys\n",
+    "\n",
+    "print(sys.argv)\n",
+    "# print(\"Yo, what's up!\")\n",
+    "\n",
+    "\n"
    ]
   },
   {
