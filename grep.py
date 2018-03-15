@@ -18,35 +18,26 @@
     "#!/bin/env python3\n",
     "\n",
     "import sys\n",
+    "    \n",
+    "#pattern = sys.argv[1]\n",
+    "#filename = sys.argv[2]\n",
     "\n",
-    "print(sys.argv)\n",
-    "# print(\"Yo, what's up!\")\n",
-    "\n",
-    "with open(\"grep.py\") as f:\n",
-    "    for line in file:\n",
-    "        if \"sys\" in line:\n",
-    "            print(line)\n",
-    "\n",
-    "with open(\"file\") as f:\n",
-    "    for line in file:\n",
-    "        if \"pattern\" in line:\n",
+    "pattern, path = sys.argv[1:]\n",
+    "            \n",
+    "with open(filename) as f:\n",
+    "    for line in f:\n",
+    "        if pattern in line:\n",
     "            print(line, end=\"\")\n",
+    "\n",
+    "\n",
+    "#def main():\n",
+    "   \n",
+    "\n",
+    "#if __name__ == \"__main__\":\n",
+    "#    main()\n",
+    "\n",
     " "
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
@@ -65,7 +56,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.5.2"
+   "version": "3.6.4"
   }
  },
  "nbformat": 4,
